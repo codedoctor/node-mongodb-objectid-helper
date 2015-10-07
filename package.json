@@ -2,7 +2,7 @@
   "author": "Martin Wawrusch <martin@wawrusch.com> (http://martinatsunset.com)",
   "name": "mongodb-objectid-helper",
   "description": "A simple helper to determine if a string is a mongodb object id",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main" : "lib/index.js",
   "repository": {
     "type": "git",
@@ -26,7 +26,7 @@
     "node": ">=0.8.0"
   },
   "dependencies": {
-    "bson" : ">=0.4.12"
+    "bson" : "0.4.15"
   },
   "devDependencies": {
     "async": "1.4.2",
